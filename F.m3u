@@ -1,0 +1,54 @@
+#EXTM3U url-tvg="https://github.com/iwinstar/epg_merge_filter/releases/download/latest/merged_epg.xml.gz"
+#EXTM3U url-tvg="https://epg.aptv.app/xml"
+#EXTM3U url-tvg="https://epg.112114.xyz/pp.xml"
+#EXTM3U url-tvg="https://epg.zsdc.eu.org/t.xml"
+
+# News
+#EXTINF:-1 tvg-id="BBC.News.(North.America).HD.us2" tvg-name="BBC News International" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News",BBC News International
+https://pb-iiczlgfysam0q.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-iiczlgfysam0q/c36289f2-d32f-4e65-a41f-9f1cf0658f12/5.m3u8
+#EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnn-us.png?raw=true" group-title="News",CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="CNN.International.us2" tvg-name="CNN International" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnn-us.png?raw=true" group-title="News",CNN International
+https://amg00803-cnnfast-amg00803c6-lg-gb-5355.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00803-cnnfastinternational-cnniall-lggb/cb543d19796c628f84cb3b61cef046a2f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7251db80148b61299bce8c37683f03409a5e5afba358b1ebb35a448a65f4e41b55907e17e49f43c8821da6d1d10ecf5e8027f616c893a183804282809b709368e3301a1626788f897a96c452b2df961b49f61f13623b63cf80b6c16313a2626f61a282a1d364fb00808d20976934be099c3de95ae1508e2c91c86d859292fb7f1b47cea85a6534eee7b584ff3936b46289cc83b1485da9c62b5a72e749f4071662d397a41580d05b97a63396a0660f3dd58349e9edd8edd491bd7aa316fee8c6bd0870625e5e79ec36a39e7e9520db79bcd703242e212ec7a17ce2a7e66a09526abbda2ebe751abdc8c58acf7c5da0042073d85d83216f07cd307f32e622ec94287e905461ef5c06d87700ae76ce8111afe6b18b073fa690c347e966ecb01ecbe607db0256343997d71a76666942e4d756280d23b82f8fd2cef2390810fcf9ccf3c521546d532c733cbbddc951b6abfd73657cac5222733a1418980bc27ada0c457249a37be8882747b85c65478aa63b4e147897dab68493d7ce36c115a1f4c9181d1c7c579c173a0742ff99ba7cd90511011030810b770da8144a50e383c8e680f200a4f05f9f0b5d2451ecc63662306f292260f5916cc410e6960bb098cf51cde488602aef51982535a8f9ff49c7c0a0ec6a32cad63d756693c069d37a28d004dd318da01cb2da6e303519777bebb471c205f8b5f4c62f8962ac5f1368ef6aa895ecbda4093c8aaa6b03033663324d615f032285808d0e7b7ae8af18e152e9ec59ac7d5537004adf8c015983fa4812933b7d65d7d9a1fcaac50c17c66bcb74cd5f0ea7590c29e4de07e48cbcf0ffdd1a3e68d8b2b802bca89e8fbebfa0414525431eb8e4620f05b241f18814afa41b7d9deee180e147b154df6ff8eed92fe02feeccb81ebc9392f0e872194a282796afccdd30eb8e35669455e868032ca1d0969e02fadeaf4974eb4992e26d0b95125369f4f18b6eae2abcf5773fe6f50f33b14f07e0dda55276a025a3337c7af5dd931c53a5a534b469aba7ca553ee66f1fe0541067af7788e0d50c54c79f383d0b91616e8d739786dd515879abe0094f473628303ff8637913c91f41802780e488c900a1259ce8755d8a4aedaf62a9ab18ebf784c0bae42c60b485747c9021c67b74a753bbf59516ab4175a228b01767b4d6dfffb28c8dd79d9976d27fe7c75ef26c361ae489e8ed3589bf251b03ea62933cce0e1b5a97c51ae9af446f87d9f2390e673e4a2f1b2ac615b29d5a1d0b73c9ae4a94d36e6d7e7f70c6f746e643fa1550c4607eb34c3b495f1f0415ebd7ec0bce25d940b4f67209f1cae2f171a9ff699ed4adce8e64248e122a47439cf7a894d34a3ab5d4a99927678cee2ae44426777bcc8aec177bf1c42222eaabc221e8eb2dd44e447f05b8bba73cc9709521aa0e0fa85cffcb0d3c9dc34c4e78ef59b1c07c46aa589c6a279f00e13f7895513e614d238372d574440e0de66e84e0a94b2e67d1553a3497932a6c8b10400a0367cbb4904706eb0a12c831d9/50/1920x1080_4716800/index.m3u8
+#EXTINF:-1 tvg-id="USBA300024TN" tvg-name="LiveNOW from FOX" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/live-now-fox-us.png?raw=true" group-title="News",LiveNOW from FOX
+https://s11host2.localnow.api.cms.amdvids.com/v1/manifest/c189661feba961c19bc5fb60b57879ee9b84548a/config13/25a2f26d-fa83-469b-a0c6-0d4508fec2c0/2.m3u8
+#EXTINF:-1 tvg-id="USBB2200014DK" tvg-name="NBC News NOW" tvg-logo="https://i.imgur.com/lw2THVt.png" group-title="News",NBC News NOW
+https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/3e088b25-3e79-4f34-bbdf-afbcd40497f3/4.m3u8
+#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-name="ABC News Live" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/ABCNewsLive/abc_logo_new.png" group-title="News",ABC News Live
+https://pb-0n3n2ej0w8pl9.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-0n3n2ej0w8pl9/9d6fea29-b168-48b9-8d74-073a6bab5ce6/0.m3u8
+#EXTINF:-1 tvg-id="USBA370000104" tvg-name="CBS News 24/7" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104846_dark_360w_270h.png" group-title="News",CBS News 24/7
+https://pddl.sharewithyou.dpdns.org/?play=https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8?imafw_csid=vcbs_xumo_ctv_allos_live_cbsnews;imafw__fw_h_referer=com.xumo.app&imafw__fw_did=dpid:&imafw__fw_is_lat=&imafw__fw_vcid2=&imafw__fw_app_bundle=web.xumo.com&imafw_is_lat=
+#EXTINF:-1 tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/1346
+#EXTINF:-1 tvg-id="Bloomberg.HD.us2" tvg-name="Bloomberg TV 4K" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s71799_dark_360w_270h.png" group-title="News",Bloomberg TV 4K
+https://d2d98ykcmmhgd4.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3jvz2ljlxc2im/ccec394c-a6c5-4cce-bcd5-ce5b2ed7c2ad/0.m3u8
+
+# Sports
+#EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/330px-NBA_TV.svg.png" group-title="Sports",NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 tvg-id="Apple TV" tvg-name="Apple TV F1 4K (Not 24/7)" tvg-logo="https://garyshare.sharewithyou.dpdns.org/logos/Apple_TV_logo.svg" group-title="Sports",Apple TV F1 4K (Not 24/7)
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/119317
+
+# 有线电视
+#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/CCTV5.png" group-title="有线电视",CCTV5
+http://10.0.0.48:12123/rtp/233.50.201.197:5140
+#EXTINF:-1 tvg-name="cctv5p" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/CCTV5+.png" group-title="有线电视",CCTV5+
+http://10.0.0.48:12123/rtp/233.50.201.220:5140
+#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/CCTV16.png" group-title="有线电视",CCTV16 4K
+http://10.0.0.48:12123/rtp/233.50.201.63:5140
+#EXTINF:-1 tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/CCTV6.png" group-title="有线电视",CCTV6
+http://10.0.0.48:12123/rtp/233.50.201.198:5140
+#EXTINF:-1 tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/CCTV8.png" group-title="有线电视",CCTV8
+http://10.0.0.48:12123/rtp/233.50.201.199:5140
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/东方卫视.png" group-title="有线电视",东方卫视 4K
+http://10.0.0.48:12123/rtp/233.50.202.105:5140
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/浙江卫视.png" group-title="有线电视",浙江卫视 4K
+http://10.0.0.48:12123/rtp/233.50.202.104:5140
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/湖南卫视.png" group-title="有线电视",湖南卫视 4K
+http://10.0.0.48:12123/rtp/233.50.202.106:5140
+#EXTINF:-1 tvg-name="宁波3" group-title="有线电视",宁波3
+http://10.0.0.48:12123/rtp/233.50.201.179:5140
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/凤凰卫视中文台.png" group-title="有线电视",凤凰中文
+http://10.0.0.48:12123/rtp/233.50.202.35:5140
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/vircloud/TVLogo/refs/heads/main/凤凰卫视资讯台.png" group-title="有线电视",凤凰资讯
+http://10.0.0.48:12123/rtp/233.50.202.36:5140
