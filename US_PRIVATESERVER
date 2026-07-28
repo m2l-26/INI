@@ -1,0 +1,10 @@
+# LXD Music us-phoenix-1
+DOMAIN,us-phoenix-1.vds.qzz.io
+# ODYSSEY PLUS
+DOMAIN,cf.odysseyplus.site
+DOMAIN,us.odysseyplus.site
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,odylife.org
+IP-CIDR,144.76.175.55/32,no-resolve
+IP-CIDR,172.67.139.252/32,no-resolve
+################################################
