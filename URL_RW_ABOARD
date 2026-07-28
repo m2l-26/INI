@@ -1,0 +1,26 @@
+# Redirect Google Service
+^https?:\/\/(www.)?g\.cn https://www.google.com 302
+^https?:\/\/(www.)?google\.cn https://www.google.com 302
+# Redirect YouTube
+^https?://youtube.com https://www.youtube.com 302
+################################################
+# Advertising Block
+# >> Google
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat - reject
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/.+\.youtube\.com\/get_midroll - reject
+^https?:\/\/.+\.youtube\.com\/get_midroll_ - reject
+^https?:\/\/.+\.youtube\.com\/pagead\/ - reject
+^https?:\/\/.+\.youtube\.com\/ptracking - reject
+^https?:\/\/.+\.youtube\.com\/ptracking\? - reject
+^https?:\/\/pagead2.googlesyndication.com\/pagead\/js\/? - reject
+^https?:\/\/pagead2.googlesyndication.com\/pagead\/js\/? - reject
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
+^https?:\/\/www.google-analytics.com\/analytics.js - reject
+^https?:\/\/www.google-analytics.com\/analytics.js - reject
+^https?:\/\/youtubei\.googleapis\.com/.+ad_break - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ - reject
+# >> Youtube++
+^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ - reject
+################################################
