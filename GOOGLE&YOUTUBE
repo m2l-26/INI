@@ -1,0 +1,23 @@
+# Google
+USER-AGENT,VoiceApp*
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gstatic
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN,cdn.ampproject.org # google搜索结果含有“amp”的结果打开全部404，是因为上面这个域名被解析到北京的原因
+# Youtube
+AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP #YouTube UDP REJECT
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtu.be
+# YouTube Music
+USER-AGENT,*youtubemusic*
+USER-AGENT,YouTubeMusic*
+PROCESS-NAME,"YT Music"
+################################################
