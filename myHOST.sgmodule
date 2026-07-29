@@ -1,3 +1,7 @@
+#!name=myHOST
+#!desc=my host
+
+[Host]
 # SYSTEM
 *.local = server:system
 *.lan = server:system
