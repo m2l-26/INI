@@ -1,3 +1,17 @@
+# Docker
+DOMAIN-KEYWORD,docker
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,minghui.org
+IP-CIDR,3.219.239.5/32,no-resolve
+IP-CIDR,28.121.243.76/32,no-resolve
+IP-CIDR,34.226.69.105/32,no-resolve
+IP-CIDR,54.196.99.49/32,no-resolve
+IP-CIDR,104.244.43.57/32,no-resolve
+IP-CIDR,108.160.166.9/32,no-resolve
+IP-CIDR,162.125.32.10/32,no-resolve
+IP-CIDR,173.236.182.137/32,no-resolve
+IP-CIDR,199.59.149.203/32,no-resolve
+IP-CIDR,202.160.130.145/32,no-resolve
 # Homebrew Installation
 DOMAIN-SUFFIX,aegisub.org
 DOMAIN-SUFFIX,backblazeb2.com # altserver
