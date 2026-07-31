@@ -1,38 +1,3 @@
-# GFW
-DOMAIN,gfw.press
-DOMAIN-KEYWORD,blnew
-DOMAIN-KEYWORD,boslife #BL
-DOMAIN-SUFFIX,wikibos.com #BL
-DOMAIN-SUFFIX,boswiki.net #BL
-DOMAIN-KEYWORD,deepl
-DOMAIN,api.cn1.info
-DOMAIN-SUFFIX,aaex.uk
-DOMAIN-SUFFIX,chinagfw.org
-DOMAIN-SUFFIX,getoutline.org #outline
-DOMAIN-SUFFIX,getsync.com
-DOMAIN-SUFFIX,nssurge.com #surge
-DOMAIN-KEYWORD,shadowsocks
-# Docker
-DOMAIN-KEYWORD,docker
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,minghui.org
-IP-CIDR,3.219.239.5/32,no-resolve
-IP-CIDR,28.121.243.76/32,no-resolve
-IP-CIDR,34.226.69.105/32,no-resolve
-IP-CIDR,54.196.99.49/32,no-resolve
-IP-CIDR,104.244.43.57/32,no-resolve
-IP-CIDR,108.160.166.9/32,no-resolve
-IP-CIDR,162.125.32.10/32,no-resolve
-IP-CIDR,173.236.182.137/32,no-resolve
-IP-CIDR,199.59.149.203/32,no-resolve
-IP-CIDR,202.160.130.145/32,no-resolve
-# Amazon
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazonaws.com
-# ZERONET
-DOMAIN-SUFFIX,portchecker.co
-DOMAIN,explodie.org
-DOMAIN-SUFFIX,tracker1.wasabii.com.tw
 # UI
 DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,ubnt.com
@@ -59,24 +24,46 @@ DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,app.smartmailcloud.com
 DOMAIN-SUFFIX,gate.hockeyapp.net
 DOMAIN-SUFFIX,smartmailcloud.com
-# Work
-DOMAIN-KEYWORD,freepik
-DOMAIN-SUFFIX,dribbble.com
-DOMAIN-SUFFIX,editionhotels.com
-DOMAIN-SUFFIX,gettyimages.com
-DOMAIN-SUFFIX,kone.com # KONE
-DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,vectorstock.com
-# Pinterest
-USER-AGENT,Pinterest*
-DOMAIN-KEYWORD,pinterest
-DOMAIN-SUFFIX,pinimg.com
 # LinkedIn
 DOMAIN-KEYWORD,linkedin
-# Motion Array
-DOMAIN-SUFFIX,motionarray.com
-DOMAIN,cms-public-artifacts.artlist.io
+# ZERONET
+DOMAIN-SUFFIX,portchecker.co
+DOMAIN,explodie.org
+DOMAIN-SUFFIX,tracker1.wasabii.com.tw
+# Amazon
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+# Media
+DOMAIN-SUFFIX,rfa.org
+DOMAIN-SUFFIX,rfi.fr
+DOMAIN-SUFFIX,scmp.com
+# BBC
+USER-AGENT,BBCiPlayer*
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,co.uk
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bbcchinese.com
+# Vimeo
+DOMAIN-SUFFIX,vimeo.com
+# PLEX
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,fanart.tv
+# TED
+DOMAIN-SUFFIX,ted.com
+DOMAIN-SUFFIX,tedcdn.com
+# PODCAST
+DOMAIN-SUFFIX,acast.com
+DOMAIN-SUFFIX,art19.com
+DOMAIN-SUFFIX,prxu.org
+DOMAIN-SUFFIX,overcast.fm
 # Other
+DOMAIN-KEYWORD,deepl
 DOMAIN-KEYWORD,quickconnect
 DOMAIN-KEYWORD,tradingview
 DOMAIN-SUFFIX,maxon.net
@@ -145,51 +132,4 @@ DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,pfultd.com
 DOMAIN,ipfs.io
 DOMAIN,fonts.gstatic.com
-# Media
-DOMAIN-SUFFIX,rfa.org
-DOMAIN-SUFFIX,rfi.fr
-DOMAIN-SUFFIX,scmp.com
-# BBC
-USER-AGENT,BBCiPlayer*
-DOMAIN-KEYWORD,bbcfmt
-DOMAIN-KEYWORD,co.uk
-DOMAIN-KEYWORD,uk-live
-DOMAIN-SUFFIX,bbc.co
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,bbci.co
-DOMAIN-SUFFIX,bbci.co.uk
-DOMAIN-SUFFIX,bbcchinese.com
-# Vimeo
-DOMAIN-SUFFIX,vimeo.com
-# PLEX
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,fanart.tv
-# TED
-DOMAIN-SUFFIX,ted.com
-DOMAIN-SUFFIX,tedcdn.com
-# PODCAST
-DOMAIN-SUFFIX,acast.com
-DOMAIN-SUFFIX,art19.com
-DOMAIN-SUFFIX,prxu.org
-DOMAIN-SUFFIX,overcast.fm
-# XXX
-DOMAIN-KEYWORD,x77
-DOMAIN-SUFFIX,cccvv5.com
-DOMAIN-SUFFIX,gonzoxxxmovies.com
-DOMAIN-SUFFIX,t66y.com
-DOMAIN-SUFFIX,vporn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,eeebb2.com
-DOMAIN-SUFFIX,vvvvbaidu.com
-# Game
-# Steam
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamstatic.com
-# Nintendo
-DOMAIN-SUFFIX,nintendo.com
 ################################################
