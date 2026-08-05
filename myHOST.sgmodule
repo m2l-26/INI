@@ -41,5 +41,5 @@ weixin.com = server:119.28.28.28
 bilibili.com = server:119.29.29.29
 *.bilibili.com = server:119.29.29.29
 *.cn = server:114.114.114.114
-base-v4v6-cm-miguvideo.e.cdn.chinamobile.com = 39.135.97.27
+cache.ott.fifalive.itv.cmvideo.cn = 39.135.97.27
 ################################################
