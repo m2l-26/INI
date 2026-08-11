@@ -15,8 +15,6 @@
 # Ultra Mobile Paygo
 depdg.epc.mnc260.mcc310.pub.3gppnetwork.org = 208.54.159.227
 ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org = 208.54.2.163
-# Private Server
-us-phoenix-1.vds.qzz.io = 172.67.142.243
 # OTHER
 doh.pub = server:119.29.29.29
 *.gmail.com = server:8.8.8.8
