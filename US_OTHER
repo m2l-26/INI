@@ -3,7 +3,7 @@ DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,gmx.com
 DOMAIN-SUFFIX,mullvad.net
-# DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,torproject.org
 # Paypal
 USER-AGENT,PayPal*
