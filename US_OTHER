@@ -11,6 +11,25 @@ DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,paypal.com
 # DOMAIN-KEYWORD,webtest
 DOMAIN-SUFFIX,recaptcha.net
+# X.com
+USER-AGENT,Twitter*
+USER-AGENT,Tweetbot*
+DOMAIN-KEYWORD,twitter
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,tapbots.com
+DOMAIN-SUFFIX,bit.ly
+DOMAIN-SUFFIX,img.ly
+# Facebook
+DOMAIN-KEYWORD,facebook
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
 #  Apple TV
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
