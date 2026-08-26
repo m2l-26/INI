@@ -1,3 +1,5 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/m2l-26/INI/refs/heads/main/001 interval=86400
+
 [General]
 loglevel = notify
 # IP
