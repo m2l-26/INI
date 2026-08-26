@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/m2l-26/INI/refs/heads/main/General.dconf interval=86400
+#!MANAGED-CONFIG https://raw.githubusercontent.com/m2l-26/INI/refs/heads/main/001 interval=86400
 
 [General]
 loglevel = notify
@@ -26,3 +26,21 @@ hide-vpn-icon = true #!REQUIREMENT "SYSTEM=='iOS' OR SYSTEM=='tvOS'"
 wifi-assist = false #!IOS-ONLY # 当 Wi-Fi 信号差、网络不可用时，是否会自动使用蜂窝数据（4G/5G）辅助连接。
 allow-wifi-access = false #!IOS-ONLY # 通过wifi用iOS做代理
 # compatibility-mode = 5
+
+[Ponte]
+server-proxy-name= HK.SL
+client-proxy-name= HK.SL
+# ###############################################
+
+[Rule]
+FINAL,DIRECT
+
+[SSID Setting]
+TYPE:WIRED tfo-behaviour=force-enabled, cellular-fallback=off
+TYPE:WIFI tfo-behaviour=force-enabled, cellular-fallback=off
+TYPE:CELLULAR tfo-behaviour=force-enabled, cellular-fallback=off #!IOS-ONLY
+
+[MITM]
+enable = true #开启 HTTPS MITM 解密。
+tcp-connection = false #不启用 TCP Connection 级别的 MITM 功能。
+skip-server-cert-verify = false #是否跳过验证真实服务器证书
