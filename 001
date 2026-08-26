@@ -30,9 +30,6 @@ server-proxy-name= HK.SL
 client-proxy-name= HK.SL
 # ###############################################
 
-[Proxy]
-Tailnet = tailscale, section-name=TS
-
 [Proxy Group]
 ABD.SL = select, MIX.FB, HK.SL, US.SL, HF.SL.B, DIRECT
 MIX.FB = fallback, HK.SM.B, US.SM.B, HK.SM.A, US.SM.A, HF.SL.B, JP.SL.A, TW.SL.A, SG.SL.A, KR.SL.A, CA.SL.A, GB.SL.A, FR.SL.A, GM.SL.A, TK.SL.A, OTHER.SL.A, hidden=true
@@ -55,8 +52,6 @@ FR.SM.A = smart, include-other-group="B, F", policy-regex-filter=法国, url=htt
 GM.SM.A = smart, include-other-group="B, F", policy-regex-filter=德国, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
 TK.SM.A= smart, include-other-group="B, F", policy-regex-filter=土耳其, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
 OTHER.SL.A = select, include-other-group="B, F", policy-regex-filter=摩尔多瓦|乌克兰|意大利|匈牙利|西班牙|荷兰|阿根廷|巴西|智利|澳大利亚|新西兰|印尼|泰国|越南|印度|巴基斯坦|以色列|阿联酋|菲律宾|马来西亚|埃及|尼日利亚, url=http://www.gstatic.com/generate_204, no-alert=true
-
-[Rule]
 
 [SSID Setting]
 TYPE:WIRED tfo-behaviour=force-enabled, cellular-fallback=off
