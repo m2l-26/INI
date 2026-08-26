@@ -27,11 +27,6 @@ wifi-assist = false #!IOS-ONLY # 当 Wi-Fi 信号差、网络不可用时，是�
 allow-wifi-access = false #!IOS-ONLY # 通过wifi用iOS做代理
 # compatibility-mode = 5
 
-[Ponte]
-server-proxy-name= HK.SL
-client-proxy-name= HK.SL
-# ###############################################
-
 [Rule]
 FINAL,DIRECT
 
