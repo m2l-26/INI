@@ -30,29 +30,6 @@ server-proxy-name= HK.SL
 client-proxy-name= HK.SL
 # ###############################################
 
-[Proxy Group]
-ABD.SL = select, MIX.FB, HK.SL, US.SL, HF.SL.B, DIRECT
-MIX.FB = fallback, HK.SM.B, US.SM.B, HK.SM.A, US.SM.A, HF.SL.B, JP.SL.A, TW.SL.A, SG.SL.A, KR.SL.A, CA.SL.A, GB.SL.A, FR.SL.A, GM.SL.A, TK.SL.A, OTHER.SL.A, hidden=true
-FINAL.SL = select, HK.SL, US.SL, HF.SL.B, JP.SL.A, TW.SL.A, SG.SL.A, KR.SL.A, CA.SL.A, GB.SL.A, FR.SL.A, GM.SL.A, TK.SL.A, OTHER.SL.A, DIRECT
-HK.SL = select, HK.SM.B, HK.SM.A
-US.SL = select, US.SM.B, US.SM.A
-NEWS.SL = select, DIRECT, US.SM.B
-HK.SM.B = smart, include-other-group=B, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, no-alert=true
-US.SM.B = smart, include-other-group=B, policy-regex-filter=美国, url=http://www.gstatic.com/generate_204, no-alert=true
-HF.SL.B = select, include-other-group=B, policy-regex-filter=亚太, url=http://www.gstatic.com/generate_204, no-alert=true
-HK.SM.A = smart, include-other-group="B, F", policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, no-alert=true
-US.SM.A = smart, include-other-group="B, F", policy-regex-filter=美国, url=http://www.gstatic.com/generate_204, no-alert=true
-JP.SM.A = smart, include-other-group="B, F", policy-regex-filter=日本, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-TW.SM.A = smart, include-other-group="B, F", policy-regex-filter=台湾, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-SG.SM.A = smart, include-other-group="B, F", policy-regex-filter=新加坡, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-KR.SM.A = smart, include-other-group="B, F", policy-regex-filter=韩国, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-CA.SM.A = smart, include-other-group="B, F", policy-regex-filter=加拿大, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-GB.SM.A = smart, include-other-group="B, F", policy-regex-filter=英国, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-FR.SM.A = smart, include-other-group="B, F", policy-regex-filter=法国, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-GM.SM.A = smart, include-other-group="B, F", policy-regex-filter=德国, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-TK.SM.A= smart, include-other-group="B, F", policy-regex-filter=土耳其, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
-OTHER.SL.A = select, include-other-group="B, F", policy-regex-filter=摩尔多瓦|乌克兰|意大利|匈牙利|西班牙|荷兰|阿根廷|巴西|智利|澳大利亚|新西兰|印尼|泰国|越南|印度|巴基斯坦|以色列|阿联酋|菲律宾|马来西亚|埃及|尼日利亚, url=http://www.gstatic.com/generate_204, no-alert=true
-
 [Rule]
 # DOMAIN-SET, https://anti-ad.net/surge2.txt, REJECT, update-interval=86400
 RULE-SET, https://raw.githubusercontent.com/m2l-26/INI/refs/heads/main/BLOCK, REJECT, update-interval=86400
