@@ -56,6 +56,8 @@ GM.SM.A = smart, include-other-group="B, F", policy-regex-filter=德国, url=htt
 TK.SM.A= smart, include-other-group="B, F", policy-regex-filter=土耳其, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
 OTHER.SL.A = select, include-other-group="B, F", policy-regex-filter=摩尔多瓦|乌克兰|意大利|匈牙利|西班牙|荷兰|阿根廷|巴西|智利|澳大利亚|新西兰|印尼|泰国|越南|印度|巴基斯坦|以色列|阿联酋|菲律宾|马来西亚|埃及|尼日利亚, url=http://www.gstatic.com/generate_204, no-alert=true
 
+[Rule]
+
 [SSID Setting]
 TYPE:WIRED tfo-behaviour=force-enabled, cellular-fallback=off
 TYPE:WIFI tfo-behaviour=force-enabled, cellular-fallback=off
