@@ -24,7 +24,6 @@ hide-vpn-icon = true #!REQUIREMENT "SYSTEM=='iOS' OR SYSTEM=='tvOS'"
 wifi-assist = false #!IOS-ONLY # 当 Wi-Fi 信号差、网络不可用时，是否会自动使用蜂窝数据（4G/5G）辅助连接。
 allow-wifi-access = false #!IOS-ONLY # 通过wifi用iOS做代理
 # compatibility-mode = 5
-# ###############################################
 
 [Ponte]
 server-proxy-name= HK.SL
@@ -33,7 +32,6 @@ client-proxy-name= HK.SL
 
 [Proxy]
 Tailnet = tailscale, section-name=TS
-# ###############################################
 
 [Proxy Group]
 ABD.SL = select, MIX.FB, HK.SL, US.SL, HF.SL.B, DIRECT
@@ -57,7 +55,6 @@ FR.SM.A = smart, include-other-group="B, F", policy-regex-filter=法国, url=htt
 GM.SM.A = smart, include-other-group="B, F", policy-regex-filter=德国, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
 TK.SM.A= smart, include-other-group="B, F", policy-regex-filter=土耳其, url=http://www.gstatic.com/generate_204, no-alert=true, hidden=true
 OTHER.SL.A = select, include-other-group="B, F", policy-regex-filter=摩尔多瓦|乌克兰|意大利|匈牙利|西班牙|荷兰|阿根廷|巴西|智利|澳大利亚|新西兰|印尼|泰国|越南|印度|巴基斯坦|以色列|阿联酋|菲律宾|马来西亚|埃及|尼日利亚, url=http://www.gstatic.com/generate_204, no-alert=true
-# ###############################################
 
 [SSID Setting]
 TYPE:WIRED tfo-behaviour=force-enabled, cellular-fallback=off
