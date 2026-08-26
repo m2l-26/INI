@@ -34,8 +34,3 @@ FINAL,DIRECT
 TYPE:WIRED tfo-behaviour=force-enabled, cellular-fallback=off
 TYPE:WIFI tfo-behaviour=force-enabled, cellular-fallback=off
 TYPE:CELLULAR tfo-behaviour=force-enabled, cellular-fallback=off #!IOS-ONLY
-
-[MITM]
-enable = true #开启 HTTPS MITM 解密。
-tcp-connection = false #不启用 TCP Connection 级别的 MITM 功能。
-skip-server-cert-verify = false #是否跳过验证真实服务器证书
