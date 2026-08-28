@@ -1,0 +1,15 @@
+DOMAIN-KEYWORD,freepik
+DOMAIN-SUFFIX,dribbble.com
+DOMAIN-SUFFIX,editionhotels.com
+DOMAIN-SUFFIX,gettyimages.com
+DOMAIN-SUFFIX,kone.com # KONE
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,vectorstock.com
+# Pinterest
+USER-AGENT,Pinterest*
+DOMAIN-KEYWORD,pinterest
+DOMAIN-SUFFIX,pinimg.com
+# Motion Array
+DOMAIN-SUFFIX,motionarray.com
+DOMAIN,cms-public-artifacts.artlist.io
+################################################

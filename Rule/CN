@@ -1,0 +1,94 @@
+# APPLE
+DOMAIN,safebrowsing.urlsec.qq.com
+USER-AGENT,com.apple.appstored*
+USER-AGENT,AppStore*
+USER-AGENT,cloudd*
+AND,((NOT,((USER-AGENT,*com.apple.WebKit*))), (USER-AGENT,*com.apple.*))
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn20.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,edgekey.net
+DOMAIN-SUFFIX,mwcloudcdn.com
+DOMAIN-SUFFIX,mwcname.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+# IPTV
+DOMAIN-KEYWORD,cztv
+DOMAIN-SUFFIX,freetv.fun
+DOMAIN-SUFFIX,ottiptv.cc
+DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,cnr.cn
+DOMAIN-SUFFIX,188766.xyz
+# WECHAT
+USER-AGENT,"MicroMessenger Client"
+USER-AGENT,MicroMessenger
+USER-AGENT,WeChat*
+USER-AGENT,MApi* # Dianping
+DOMAIN-SUFFIX,qq.com
+IP-ASN,132203,no-resolve
+IP-ASN,56040,no-resolve
+IP-ASN,45090,no-resolve
+# JIKE
+USER-AGENT,%E5%8D%B3%E5%88%BB*
+DOMAIN,jike-io.ruguoapp.com
+# 网上国网
+# USER-AGENT,%E7%BD%91%E4%B8%8A%E5%9B%BD%E7%BD%91*
+# USER-AGENT,NBS*
+# USER-AGENT,wang*
+# DOMAIN-SUFFIX,sgcc.com.cn
+# ALI
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,taobao
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,.tmall.
+IP-CIDR,198.11.188.0/25,no-resolve
+IP-CIDR,198.11.136.0/24,no-resolve
+USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
+# DOMESTIC
+DOMAIN-SUFFIX,cn
+DOMAIN-KEYWORD,-cn
+DOMAIN-KEYWORD,fmfmobile
+DOMAIN-KEYWORD,sctdr
+DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,360.com
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,alicloud
+DOMAIN-SUFFIX,aptv.app
+DOMAIN-SUFFIX,audioblocks.com
+DOMAIN-SUFFIX,amazon.cn
+DOMAIN-KEYWORD,baidu
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-KEYWORD,douban
+DOMAIN-KEYWORD,feishu
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,mxhichina.com
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,sspai.com
+DOMAIN-KEYWORD,taobao
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tosky.club
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,youdao.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN,portal.linkbroad.com
+# V
+IP-CIDR,45.32.88.195/32,no-resolve
+# GAMES
+DOMAIN-SUFFIX,boombeachgame.com
+DOMAIN-SUFFIX,clashofclans.com
+################################################

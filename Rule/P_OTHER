@@ -1,0 +1,134 @@
+# UI
+DOMAIN-SUFFIX,ui.com
+DOMAIN-SUFFIX,ubnt.com
+DOMAIN-SUFFIX,twilio.com
+DOMAIN-SUFFIX,iot.us-west-2.amazonaws.com
+IP-CIDR,233.89.188.1/32,no-resolve
+# Microsoft
+USER-AGENT,OneDrive*
+# DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,msn
+DOMAIN-KEYWORD,bing
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,teams.microsoft.com # teams
+DOMAIN-SUFFIX,akadns.net # teams
+DOMAIN,speech.platform.bing.com
+# Spark
+DOMAIN-SUFFIX,api.amplitude.com
+DOMAIN-SUFFIX,app.smartmailcloud.com
+DOMAIN-SUFFIX,gate.hockeyapp.net
+DOMAIN-SUFFIX,smartmailcloud.com
+# LinkedIn
+DOMAIN-KEYWORD,linkedin
+# ZERONET
+DOMAIN-SUFFIX,portchecker.co
+DOMAIN,explodie.org
+DOMAIN-SUFFIX,tracker1.wasabii.com.tw
+# Amazon
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+# Media
+DOMAIN-SUFFIX,rfa.org
+DOMAIN-SUFFIX,rfi.fr
+DOMAIN-SUFFIX,scmp.com
+# BBC
+USER-AGENT,BBCiPlayer*
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,co.uk
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bbcchinese.com
+# Vimeo
+DOMAIN-SUFFIX,vimeo.com
+# PLEX
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,fanart.tv
+# TED
+DOMAIN-SUFFIX,ted.com
+DOMAIN-SUFFIX,tedcdn.com
+# PODCAST
+DOMAIN-SUFFIX,acast.com
+DOMAIN-SUFFIX,art19.com
+DOMAIN-SUFFIX,prxu.org
+DOMAIN-SUFFIX,overcast.fm
+# Other
+DOMAIN-KEYWORD,deepl
+DOMAIN-KEYWORD,quickconnect
+DOMAIN-KEYWORD,tradingview
+DOMAIN-SUFFIX,maxon.net
+DOMAIN-KEYWORD,1password
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,chrome
+DOMAIN-KEYWORD,cloudflare
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,flickr
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,pikpak
+DOMAIN-KEYWORD,safari-extensions
+DOMAIN-KEYWORD,v2ex
+DOMAIN-KEYWORD,xmarks
+DOMAIN-KEYWORD,marriott
+DOMAIN-KEYWORD,movable-ink
+DOMAIN-SUFFIX,agilebits.com # 1Password
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,bravesoftware.com
+DOMAIN-SUFFIX,btsynckeys.com
+DOMAIN-SUFFIX,calibre-ebook.com
+DOMAIN-SUFFIX,dayone.me
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,feedburner.com
+DOMAIN-SUFFIX,feedly.com
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,ift.tt
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,jquery.com
+DOMAIN-SUFFIX,logitech.com
+DOMAIN-SUFFIX,lvv2.com
+DOMAIN-SUFFIX,mailbutler.io
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,mobile01.com
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,obdev.at
+DOMAIN-SUFFIX,raindrop.io
+DOMAIN-SUFFIX,raspberrypi.org
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,shazam.com
+DOMAIN-SUFFIX,sketchup.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,subhd.tv
+DOMAIN-SUFFIX,sublimetext.com
+DOMAIN-SUFFIX,syncbits.com
+DOMAIN-SUFFIX,termius.com
+DOMAIN-SUFFIX,thepiratebay.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,typora.io
+DOMAIN-SUFFIX,unsplash.com
+DOMAIN-SUFFIX,w3schools.com
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiwand.com
+DOMAIN-SUFFIX,wiz.money
+DOMAIN-SUFFIX,wordpress.com
+DOMAIN-SUFFIX,workflow.is
+DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,pfultd.com
+DOMAIN,ipfs.io
+################################################

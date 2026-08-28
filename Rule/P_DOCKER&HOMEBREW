@@ -1,0 +1,50 @@
+# Docker
+DOMAIN-KEYWORD,docker
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,minghui.org
+# Homebrew Installation
+DOMAIN-SUFFIX,aegisub.org
+DOMAIN-SUFFIX,backblazeb2.com # altserver
+DOMAIN-SUFFIX,bintray.com
+DOMAIN-SUFFIX,caskroom.io # Caskroom
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,devmate.com
+DOMAIN-SUFFIX,grammarly.com # Grammarly
+DOMAIN-SUFFIX,iterm2.com # iTerm2
+DOMAIN-SUFFIX,kapeli.com # Dash
+DOMAIN-SUFFIX,krisp.ai # Krisp
+DOMAIN-SUFFIX,launchpad.net # VeraCrypt
+DOMAIN-SUFFIX,launchpadlibrarian.net # VeraCrypt
+DOMAIN-SUFFIX,mactracker.ca # mactracker
+DOMAIN-SUFFIX,msecnd.net # visual-studio-code
+DOMAIN-SUFFIX,visualstudio.com # visual-studio-code
+DOMAIN-SUFFIX,nchc.org.tw # LibreOffice
+DOMAIN-SUFFIX,notion-static.com # notion
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,setapp.com # SetApp
+DOMAIN-SUFFIX,sourceforge.net
+DOMAIN-SUFFIX,wdc.com # WD
+# Homebrew Socks5 Proxy
+IP-CIDR,13.32.253.6/32,no-resolve # squirrel
+IP-CIDR,13.33.92.0/24,no-resolve # SetApp, logitech-options
+IP-CIDR,52.74.223.119/32,no-resolve
+IP-CIDR,52.216.0.0/16,no-resolve
+IP-CIDR,52.217.0.172/32,no-resolve # cheatsheet
+IP-CIDR,52.219.72.0/24,no-resolve # mailbutler
+IP-CIDR,54.169.195.247/32,no-resolve # Homebrew
+IP-CIDR,67.15.100.252/32,no-resolve
+IP-CIDR,99.84.239.117/32,no-resolve # 1Password
+IP-CIDR,104.236.0.104/32,no-resolve # Sublime-text
+IP-CIDR,208.101.60.87/32,no-resolve # Sublime-text
+# Docker IP
+IP-CIDR,3.219.239.5/32,no-resolve
+IP-CIDR,28.121.243.76/32,no-resolve
+IP-CIDR,34.226.69.105/32,no-resolve
+IP-CIDR,54.196.99.49/32,no-resolve
+IP-CIDR,104.244.43.57/32,no-resolve
+IP-CIDR,108.160.166.9/32,no-resolve
+IP-CIDR,162.125.32.10/32,no-resolve
+IP-CIDR,173.236.182.137/32,no-resolve
+IP-CIDR,199.59.149.203/32,no-resolve
+IP-CIDR,202.160.130.145/32,no-resolve
+################################################
