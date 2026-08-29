@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://sc.me2-lamb.workers.dev/fetch/HHUR/d7e4337d-fbf5-4608-9bb1-dcdde5835146b58eb9e4-43f6-4099-8361-65dec9eb936f interval=43200 strict=false
+#!MANAGED-CONFIG https://raw.githubusercontent.com/m2l-26/INI/refs/heads/main/Rule/M_HEADHOSTURLRW interval=43200 strict=false
 
 [Rule]
 FINAL,DIRECT
