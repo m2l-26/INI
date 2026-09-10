@@ -37,17 +37,6 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,rfa.org
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,scmp.com
-# BBC
-USER-AGENT,BBCiPlayer*
-DOMAIN-KEYWORD,bbcfmt
-DOMAIN-KEYWORD,co.uk
-DOMAIN-KEYWORD,uk-live
-DOMAIN-SUFFIX,bbc.co
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,bbci.co
-DOMAIN-SUFFIX,bbci.co.uk
-DOMAIN-SUFFIX,bbcchinese.com
 # Vimeo
 DOMAIN-SUFFIX,vimeo.com
 # PLEX
