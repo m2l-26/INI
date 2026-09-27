@@ -9,8 +9,8 @@ IP-CIDR, 233.89.188.1/32, no-resolve
 # Microsoft
 USER-AGENT, OneDrive*
 # DOMAIN-KEYWORD,  microsoft
-DOMAIN-KEYWORD,  msn
-DOMAIN-KEYWORD,  bing
+DOMAIN-KEYWORD, msn
+DOMAIN-KEYWORD, bing
 DOMAIN-SUFFIX, hotmail.com
 DOMAIN-SUFFIX, live.com
 DOMAIN-SUFFIX, live.net
@@ -30,8 +30,8 @@ DOMAIN-SUFFIX, smartmailcloud.com
 DOMAIN-KEYWORD,  linkedin
 # ZERONET
 DOMAIN-SUFFIX, portchecker.co
-DOMAIN, explodie.org
 DOMAIN-SUFFIX, tracker1.wasabii.com.tw
+DOMAIN, explodie.org
 # Amazon
 DOMAIN-SUFFIX, amazon.com
 DOMAIN-SUFFIX, amazonaws.com
