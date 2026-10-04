@@ -20,6 +20,28 @@ DOMAIN-SUFFIX, nyt.com
 DOMAIN-SUFFIX, nytimes.com
 DOMAIN-SUFFIX, nytstyle.com
 
+# Apple TV
+DOMAIN,cma.itunes.apple.com
+DOMAIN,cma2.itunes.apple.com
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls.itunes.apple.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN,tv.applemusic.com
+DOMAIN,uts-api.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.tv*
+PROCESS-NAME,TV
+# F1 TV
+DOMAIN-SUFFIX,bitmovin.com
+DOMAIN,d2n9h2wits23hf.cloudfront.net
+DOMAIN-SUFFIX,f1esports.com
+DOMAIN-SUFFIX,f1manager.com
+DOMAIN-SUFFIX,f1play.com
+DOMAIN,f1prodlive.akamaized.net
+DOMAIN-SUFFIX,formula1.com
+DOMAIN,mobile-collector.newrelic.com
 # CNN
 DOMAIN-KEYWORD, cnn
 DOMAIN-KEYWORD, warnermedia
