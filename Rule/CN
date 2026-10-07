@@ -18,6 +18,8 @@ DOMAIN-SUFFIX, mwcname.com
 DOMAIN-SUFFIX, apple-cloudkit.com
 DOMAIN-SUFFIX, apple-mapkit.com
 # IPTV
+DOMAIN-SUFFIX, cctv.com
+DOMAIN-SUFFIX, cctv.cn
 DOMAIN-KEYWORD, cztv
 DOMAIN-SUFFIX, freetv.fun
 DOMAIN-SUFFIX, ottiptv.cc
